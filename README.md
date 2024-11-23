@@ -23,7 +23,7 @@ external_components:
       type: git
       url: https://github.com/kalanchoej/esphome-mpu6050-tap
       ref: main
-    components: [mpu6050-tap]
+    components: [mpu6050_tap]
 ```
 
 2. Configure the component:
