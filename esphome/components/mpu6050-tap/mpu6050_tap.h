@@ -3,7 +3,7 @@
 #include <map>
 #include <string>
 
-class MPU6050Custom : public Component {
+class MPU6050Tap : public Component {
  public:
   void set_interrupt_pin(int pin) { interrupt_pin_ = pin; }
 

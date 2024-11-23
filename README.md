@@ -46,7 +46,7 @@ binary_sensor:
 
 custom_component:
   - id: mpu6050_sensor
-    type: MPU6050Custom
+    type: MPU6050Tap
     interrupt_pin: 10  # The GPIO pin where you connected the INT pin
     threshold: "medium"  # How hard you need to tap
     duration: "short"     # How long the tap should be

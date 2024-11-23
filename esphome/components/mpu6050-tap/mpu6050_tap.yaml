@@ -1,13 +1,13 @@
 external_components:
   - source:
       type: git
-      url: https://github.com/kalanchoej/mpu6050_esphome
+      url: https://github.com/kalanchoej/esphome-mpu6050-tap
       ref: main 
-    components: [mpu6050_custom]
+    components: [mpu6050_tap]
 
 custom_component:
   - id: mpu6050_sensor
-    type: MPU6050Custom
+    type: MPU6050Tap
     interrupt_pin: 10  # Example GPIO pin for interrupt
     sensitivity: "medium"
     duration: "short"

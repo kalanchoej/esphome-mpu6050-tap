@@ -1,10 +1,10 @@
-#include "mpu6050_custom.h"
+#include "mpu6050_tap.h"
 
 namespace esphome {
 namespace custom_component {
 
 void register_custom_components() {
-  auto my_mpu6050 = new MPU6050Custom();
+  auto my_mpu6050 = new MPU6050Tap();
 
   // Get YAML configuration fields
   int interrupt_pin = get_optional<int>("interrupt_pin").value_or(10);
