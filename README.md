@@ -21,9 +21,9 @@ Note: The INT pin on the MPU6050 outputs a signal when tap detection occurs. Thi
 external_components:
   - source:
       type: git
-      url: https://github.com/kalanchoeje/esphome-mpu6050-tap
+      url: https://github.com/kalanchoej/esphome-mpu6050-tap
       ref: main
-    components: [mpu6050_custom]
+    components: [mpu6050-tap]
 ```
 
 2. Configure the component:
