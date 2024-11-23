@@ -7,7 +7,7 @@ void register_custom_components() {
   auto my_mpu6050 = new MPU6050Custom();
 
   // Get YAML configuration fields
-  int interrupt_pin = get_optional<int>("interrupt_pin").value_or(26);
+  int interrupt_pin = get_optional<int>("interrupt_pin").value_or(10);
   std::string sensitivity = get_optional<std::string>("sensitivity").value_or("medium");
   std::string duration = get_optional<std::string>("duration").value_or("short");
 
